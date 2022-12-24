@@ -13,7 +13,7 @@ const Table = ({ tableNumber, status }: ITableProps) => {
       } text-white p-4 text-center`}
     >
       <h3 className="text-2xl">{tableNumber}</h3>
-      <span className="text-sm">{status}</span>
+      <span className="text-sm">{status.toUpperCase()}</span>
     </div>
   );
 };
